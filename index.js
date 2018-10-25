@@ -1,3 +1,5 @@
 const fs = require('fs');
 
-fs.writeFileSync('./out.txt', 'content' + JSON.stringify(process.argv), 'utf8');
+fs.writeFileSync('./out.txt', 'content', 'utf8');
+
+console.log(process.argv);
