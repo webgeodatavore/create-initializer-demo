@@ -1,0 +1,10 @@
+{
+  "name": "create-initializer-demo",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "create-initializer-demo": "./index.js"
+  },
+  "author": "Thomas Gratier",
+  "license": "MIT"
+}
