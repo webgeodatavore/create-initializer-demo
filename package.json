@@ -1,6 +1,6 @@
 {
   "name": "create-initializer-demo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Demo to use npm init <initializer>",
   "files": [
     "index.js"
