@@ -3,6 +3,4 @@
 'use strict';
 const fs = require('fs');
 
-fs.writeFileSync('./out.txt', 'content', 'utf8');
-
-console.log(process.argv);
+fs.writeFileSync('./out.txt', 'content' + '\n' + process.argv.join('\n'), 'utf8');
